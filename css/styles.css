@@ -5,12 +5,26 @@
 }
 body {
   background-color: white;
-  color: var (var(--primary-white-color));
+  color: var var(--primary-white-color);
+  font-family: monserate, sans-serif;
+  letter-spacing: -0, 15em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .page-header {
 }
 .logo {
   color: black;
+  font-family: fantasy;
+  font-size: 28px;
+  line-height: 1, 12 (32px delete 28px);
+  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -30,23 +44,39 @@ ul {
 /* Hero */
 .hero-title {
   color: black;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
 }
 /* Section */
 .section {
 }
 .section-title {
   color: #000;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
 }
 .feature-list .title {
   color: black;
+  font-weight: 700;
+  font-size: 24;
+  line-height: 1.5;
 }
 .feature-list .link {
   color: #18a;
 }
+
 /* Button */
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .button.primary {
   background-color: var(--accent-color);
